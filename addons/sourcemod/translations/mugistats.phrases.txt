@@ -1,0 +1,61 @@
+"Phrases"
+{
+	"Stats Menu Title"
+	{
+		"en"				"MugiStats v.1.4"
+	}
+	
+	"Top Chat"
+	{
+		/*
+			1: Rank.
+			2: Name.
+			3: Stat.
+		*/
+		
+		"#format"			"{1:d}, {2:s}, {3:d}"
+		"en"				"{1}. {2} ({3})."
+	}
+	
+	"Top Console"
+	{
+		/*
+			1: Rank.
+			2: Name.
+			3: Stat.
+		*/
+		
+		"#format"			"{1:d}, {2:s}, {3:d}"
+		"en"				"{1}. {2} ({3})."
+	}
+	
+	"Stats Me"
+	{
+		/*
+			1: Kills.
+			2: Deaths.
+			3: K/D.
+			4: Score.
+			
+			(Additional);
+			4: Headshots.
+			5: Assists.
+		*/
+		
+		"#format"			"{1:d}, {2:d}, {3:.02f}, {4:d}, {5:d}, {6:d}"
+		"en"				"You've got {1} kills / {2} deaths ({3}) with {4} score."
+	}
+	
+	"Your Rank"
+	{
+		/*
+			1: Rank.
+			
+			(Additional);
+			2: Score.
+		*/
+		
+		"#format"			"{1:d}, {2:d}"
+		"en"				"You're rank #{1}."
+	}
+}
